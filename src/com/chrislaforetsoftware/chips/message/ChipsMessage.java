@@ -71,6 +71,7 @@ public class ChipsMessage
         };
  
     // lookup for additional payment data (APD) from field 820
+    @SuppressWarnings("unused")
     private static CodeLookup [] _apdCode = 
         {
         new CodeLookup("01","UN-EDIFACT"),
